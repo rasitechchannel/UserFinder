@@ -41,6 +41,16 @@ This will launch the tool and display the main menu. From there, you can select 
 
 3. **Exit:** Quit the tool.
 
+### Using the API
+
+You can also use an API to check the availability of a username. Here is the API endpoint:
+
+```
+https://links.sergappteknologi.my.id/username.php?username=rasitech
+```
+
+Replace `rasitech` with the username you want to check. The API will return a response indicating whether the username is available or not.
+
 ## Customization
 
 You can customize the list of URLs to check by editing the `urlList` array in the `usernameChecker.mjs` file. Add or remove URLs based on the platforms you want to check.
