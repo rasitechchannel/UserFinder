@@ -1,0 +1,16 @@
+{
+    "name": "username-checker",
+    "version": "1.0.0",
+    "description": "A tool to check the availability of usernames on various platforms",
+    "main": "usernameChecker.mjs",
+    "type": "module",
+    "scripts": {
+        "start": "node --experimental-modules usernameChecker.mjs"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "chalk": "^4.1.0",
+        "figlet": "^1.6.0",
+        "fs": "^0.0.1-security"
+    }
+}
